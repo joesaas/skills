@@ -1,0 +1,10 @@
+name: prompt-forge-muse
+title: Prompt Forge (Muse)
+description: 手动触发的提示词生成器：仅当用户输入 /prompt（或明确说『用 /prompt』）时启动，不自动触发。启动后先解析用户已给的信息、只问缺的项（每项可答『无』跳过），再按任务类型（写作 / 分析 / Agent 执行）选模板拼出一份可直接复制使用的提示词交给用户。
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true

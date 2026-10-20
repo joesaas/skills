@@ -1,0 +1,7 @@
+interface:
+  display_name: "/prompt 提示词生成器"
+  short_description: "逐项问清需求，拼出一份可直接复制的提示词"
+  default_prompt: "Use $prompt-forge to turn my rough idea into a ready-to-paste prompt."
+
+policy:
+  allow_implicit_invocation: false
